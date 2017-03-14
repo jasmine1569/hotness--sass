@@ -1,0 +1,21 @@
+.post {
+  width: 650px;
+  padding: 50px 0;
+  border-bottom: 1px solid #ccc;
+}
+
+.post__rating {
+  position: relative;
+}
+
+.post__star {
+  position: absolute;
+  top: 25px;
+  right: 25px;
+  font-size: 30px;
+  color: #fff;
+}
+
+.post__star--yellow {
+  color: yellow;
+}

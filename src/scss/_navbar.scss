@@ -1,0 +1,29 @@
+.navbar {
+  position: fixed;
+  top: 0;
+  left: 0;
+  right: 0;
+  width: 100%;
+  background-color: #fff;
+  border-bottom: 1px solid #ccc;
+  z-index: 1;
+}
+
+.navbar__logo,
+.navbar__subscribe {
+  display: inline-block;
+  padding: 10px;
+  text-decoration: none;
+}
+
+.navbar__logo {
+  color: #4a4a4a;
+}
+
+.navbar__subscribe {
+  background-color: #000;
+  color: #fff;
+  padding-left: 20px;
+  padding-right: 20px;
+  float: right;
+}
